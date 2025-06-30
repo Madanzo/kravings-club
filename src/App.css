@@ -499,3 +499,98 @@ body {
   list-style-position: inside;
   margin-left: 1rem;
 }
+
+/* Age Verification Styles */
+.age-verification-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.age-verification-modal {
+  background: white;
+  padding: 3rem;
+  border-radius: 15px;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.age-verification-modal h1 {
+  color: #ff6b6b;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.age-verification-modal p {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.age-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.age-form label {
+  color: #333;
+  font-weight: bold;
+}
+
+.age-form input[type="date"] {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  width: 250px;
+  color: #333;
+}
+
+.verify-button {
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 1rem;
+}
+
+.verify-button:hover {
+  background: #ff5252;
+}
+
+.error-message {
+  color: #ff3838;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.disclaimer {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 2rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 480px) {
+  .age-verification-modal {
+    padding: 2rem 1.5rem;
+  }
+  
+  .age-form input[type="date"] {
+    width: 100%;
+  }
+}

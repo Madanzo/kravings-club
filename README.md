@@ -1,91 +1,182 @@
-# Nenes del Perreo
+# Kravings Club - Food Delivery Platform
 
-A React-based web application showcasing reggaeton music and Texas vibes.
+A modern, responsive food delivery web application built with React, designed to satisfy your cravings with quick and convenient delivery service.
 
-## Project Overview
+## 🍔 Project Overview
 
-This is a single-page application built with React that serves as a promotional website for the "Perreo Texas Vibes" music project, blending reggaeton with Texas culture.
+Kravings Club is a full-featured food delivery platform that offers a seamless ordering experience for customers. The application features a beautiful, mobile-responsive design with an intuitive user interface for browsing menus, placing orders, and tracking deliveries.
 
-## Tech Stack
+## 🚀 Tech Stack
 
 - **React 18.2.0** - Frontend framework
 - **React Router DOM 6.20.0** - Client-side routing
-- **React Scripts 5.0.1** - Build tooling
-- **GitHub Pages** - Deployment platform
+- **React Scripts 5.0.1** - Build configuration
+- **CSS3** - Custom styling with mobile-first approach
+- **Vercel** - Deployment platform
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 src/
-├── App.js          # Main application component
-├── App.css         # Global styles
+├── App.js          # Main application component with routing
+├── App.css         # Global styles and responsive design
 ├── index.js        # Application entry point
 ├── index.css       # Base styles
 └── pages/          # Page components
-    ├── Home.js     # Landing page
-    ├── About.js    # About section
-    ├── Music.js    # Music showcase
-    └── Events.js   # Events calendar
+    ├── Home.js     # Landing page with popular items
+    ├── Menu.js     # Full menu with categories
+    ├── Order.js    # Order form and checkout
+    └── About.js    # About us and contact info
 ```
 
-## Available Scripts
+## 🛠️ Available Scripts
 
-- `npm start` - Runs the app in development mode
+- `npm start` - Runs the app in development mode (http://localhost:3000)
 - `npm run build` - Builds the app for production
 - `npm test` - Launches the test runner
-- `npm run deploy` - Deploys to GitHub Pages
+- `npm run eject` - Ejects from Create React App (one-way operation)
 
-## Deployment
+## 🌐 Deployment
 
-This project is configured for deployment to GitHub Pages at:
-https://madanzo.github.io/nenes-del-perreo
+### Vercel Deployment (Recommended)
 
-## Development
+1. Install Vercel CLI: `npm i -g vercel`
+2. Login: `vercel login`
+3. Deploy: `vercel` (follow prompts)
 
-1. Install dependencies: `npm install`
-2. Start development server: `npm start`
-3. Open http://localhost:3000 to view in browser
+### Environment Variables
 
-## Features
+Create a `.env.local` file for sensitive data:
 
-- **Fully Responsive Design** - Optimized for mobile, tablet, and desktop
-- **Mobile-First Navigation** - Hamburger menu with smooth animations
-- **Touch-Friendly Interface** - 44px minimum touch targets for mobile usability
-- **Multi-page Navigation** - React Router with smooth page transitions
-- **Music Showcase** - Featured tracks and releases
-- **Events Calendar** - Upcoming shows and performances
-- **Texas-Themed Branding** - Reggaeton meets Southern swagger
+```env
+REACT_APP_API_URL=your-api-url
+REACT_APP_GOOGLE_MAPS_KEY=your-maps-key
+REACT_APP_STRIPE_PUBLIC_KEY=your-stripe-key
+```
 
-## Mobile Optimization
+## ✨ Features
 
-This project has been specifically optimized for mobile devices with:
+### Core Features
+- **Dynamic Menu System** - Browse categories: Burgers, Pizza, Drinks, and more
+- **Order Management** - Complete order form with delivery details
+- **Responsive Design** - Optimized for mobile, tablet, and desktop
+- **Fast Performance** - Optimized build for quick loading
+
+### User Experience
+- **Mobile-First Navigation** - Hamburger menu for mobile devices
+- **Touch-Friendly Interface** - 44px minimum touch targets
+- **Smooth Animations** - CSS-based transitions for better performance
+- **Intuitive Layout** - Easy-to-navigate interface
+
+### Business Features
+- **Menu Management** - Easy to update menu items and prices
+- **Delivery Information** - Clear delivery hours and minimum order info
+- **Contact Integration** - Phone and email contact options
+
+## 📱 Mobile Optimization
 
 ### Responsive Breakpoints
-- **Desktop**: 1200px+ (full layout)
-- **Tablet**: 768px (horizontal navigation, single-column grid)
+- **Desktop**: 1200px+ (full layout with sidebar)
+- **Tablet**: 768px (optimized spacing)
 - **Mobile**: 480px (hamburger menu, stacked layout)
 - **Small Mobile**: 320px (compact design)
 
 ### Mobile Features
-- **Hamburger Navigation Menu** - Animated toggle with dropdown
-- **Touch-Optimized Controls** - Minimum 44px touch targets
-- **Responsive Typography** - Font sizes scale appropriately
-- **Mobile-First CSS** - Optimized for small screens first
-- **Cross-Browser Support** - Works on iOS Safari, Chrome Mobile, etc.
+- Animated hamburger navigation menu
+- Touch-optimized controls and buttons
+- Responsive typography and spacing
+- Mobile-first CSS architecture
 
-### Accessibility
-- Proper ARIA labels for mobile navigation
-- Keyboard navigation support
-- Screen reader compatibility
-- High contrast ratios for readability
+## 🔒 Cannabis Compliance (Future Feature)
 
-## Recent Updates
+### Age Verification
+The application is prepared for age verification integration:
+- Age gate on first visit
+- Cookie-based verification persistence
+- Compliance with local regulations
 
-### June 2025 - Mobile Responsiveness Overhaul
-- ✅ Added hamburger navigation menu for mobile devices
-- ✅ Implemented comprehensive mobile breakpoints (768px, 480px, 320px)
-- ✅ Improved touch targets and spacing for mobile usability
-- ✅ Added mobile-first CSS with proper scaling and padding
-- ✅ Fixed navigation layout issues on small screens
+### Implementation Guide
+```javascript
+// middleware.js (for Next.js deployment)
+export function middleware(request) {
+  const ageVerified = request.cookies.get('age-verified')
+  
+  if (!ageVerified && request.nextUrl.pathname !== '/age-verification') {
+    return NextResponse.redirect(new URL('/age-verification', request.url))
+  }
+}
+```
 
-See `MOBILE_FIX_SUMMARY.md` for detailed technical documentation.
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Madanzo/kravings-club.git
+   cd kravings-club
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm start
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+## 🎨 Customization
+
+### Theme Colors
+The app uses a warm color palette:
+- Primary: `#ff6b6b` (Coral Red)
+- Secondary: `#feca57` (Golden Yellow)
+- Background: Linear gradient from coral to yellow
+
+### Adding Menu Items
+Edit `src/pages/Menu.js` to add new items:
+```javascript
+<div className="menu-item">
+  <h3>Item Name</h3>
+  <p>Item description</p>
+  <span className="price">$XX.99</span>
+</div>
+```
+
+## 📈 Future Enhancements
+
+- [ ] Shopping cart functionality
+- [ ] User authentication
+- [ ] Order tracking system
+- [ ] Payment integration (Stripe/PayPal)
+- [ ] SMS notifications
+- [ ] Loyalty program
+- [ ] Multi-language support
+- [ ] Dark mode theme
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is private and proprietary.
+
+## 📞 Contact
+
+- **Business**: hello@kravingsclub.com
+- **Support**: support@kravingsclub.com
+- **Phone**: (555) 123-4567
+
+---
+
+Built with ❤️ by Kravings Club Team

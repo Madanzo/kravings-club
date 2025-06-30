@@ -1,13 +1,35 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
 import About from './pages/About';
 import Order from './pages/Order';
+import AgeVerification from './pages/AgeVerification';
 
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [ageVerified, setAgeVerified] = useState(false);
+
+  // Check if user is already age verified
+  useEffect(() => {
+    const checkAgeVerification = () => {
+      const cookies = document.cookie.split(';');
+      const ageVerifiedCookie = cookies.find(cookie => 
+        cookie.trim().startsWith('age-verified=')
+      );
+      
+      if (ageVerifiedCookie && ageVerifiedCookie.includes('true')) {
+        setAgeVerified(true);
+      }
+    };
+    
+    checkAgeVerification();
+  }, []);
+
+  const handleAgeVerified = () => {
+    setAgeVerified(true);
+  };
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -16,6 +38,11 @@ function App() {
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
   };
+
+  // Show age verification if not verified
+  if (!ageVerified) {
+    return <AgeVerification onVerified={handleAgeVerified} />;
+  }
 
   return (
     <HashRouter>
