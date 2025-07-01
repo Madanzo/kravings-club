@@ -1,36 +1,8 @@
 {
   "version": 2,
   "name": "kravings-club",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "build"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/assets/(.*)",
-      "headers": { "cache-control": "s-maxage=31536000,immutable" },
-      "dest": "/assets/$1"
-    },
-    {
-      "src": "/favicon.ico",
-      "dest": "/favicon.ico"
-    },
-    {
-      "src": "/placeholder.svg",
-      "dest": "/placeholder.svg"
-    },
-    {
-      "src": "/robots.txt",
-      "dest": "/robots.txt"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "framework": "vite",
+  "installCommand": "npm install"
 }
