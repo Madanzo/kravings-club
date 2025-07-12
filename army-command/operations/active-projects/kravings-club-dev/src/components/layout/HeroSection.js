@@ -9,8 +9,8 @@ export default function HeroSection() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Cannabis Deals & Delivery
-            <span className="block text-yellow-300">in 2025</span>
+            Satisfying your KRAVINGS
+            <span className="block text-yellow-300">one delivery at a time</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-white mb-8 max-w-3xl mx-auto">

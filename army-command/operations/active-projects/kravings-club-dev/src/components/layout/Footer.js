@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/outline';
 
 export default function Footer() {
@@ -32,7 +33,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold text-red-500 mb-4">Kravings Club</h3>
+            <div className="mb-4">
+              <Image
+                src="/kravings-logo.png"
+                alt="Kravings Club"
+                width={140}
+                height={46}
+                className="h-10 w-auto"
+              />
+            </div>
             <p className="text-gray-300 mb-4">
               Los Angeles' premier cannabis delivery service. Premium products, fast delivery, 
               and exceptional customer service.

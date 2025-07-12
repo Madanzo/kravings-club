@@ -1,19 +1,33 @@
 'use client';
 
 import { useState } from 'react';
-import { Bars3Icon, XMarkIcon, ShoppingCartIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
+import { Bars3Icon, XMarkIcon, ShoppingCartIcon, ChevronDownIcon } from '@heroicons/react/24/outline';
 import { useCartStore } from '@/lib/cart';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(null);
   const { getItemCount, toggleCart } = useCartStore();
   const itemCount = getItemCount();
 
   const navigation = [
-    { name: 'Home', href: '/' },
-    { name: 'Products', href: '/products' },
-    { name: 'About', href: '/about' },
-    { name: 'Contact', href: '/contact' },
+    { 
+      name: 'Store', 
+      href: '/menu',
+      dropdown: [
+        { name: 'Flower', href: '/menu/categories/flower' },
+        { name: 'Edible', href: '/menu/categories/edibles' },
+        { name: 'Concentrates', href: '/menu/categories/concentrates' },
+        { name: 'Pre-Infused', href: '/menu/categories/pre-infused' },
+        { name: 'Pre-Roll', href: '/menu/categories/pre-rolls' },
+        { name: 'Vapes & Carts', href: '/menu/categories/vapes' },
+      ]
+    },
+    { name: 'Blog', href: '/blog' },
+    { name: 'About Us', href: '/about-us' },
+    { name: 'Contact Us', href: '/contact-us' },
+    { name: 'FAQ', href: '/faq' },
   ];
 
   return (
@@ -22,22 +36,56 @@ export default function Header() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <h1 className="text-2xl font-bold text-red-500">
-                Kravings Club
-              </h1>
+              <a href="/" className="flex items-center">
+                <Image
+                  src="/kravings-logo.png"
+                  alt="Kravings Club"
+                  width={120}
+                  height={40}
+                  className="h-8 w-auto"
+                  priority
+                />
+              </a>
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navigation.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className="text-white hover:text-red-500 px-3 py-2 text-sm font-medium transition duration-200"
-              >
-                {item.name}
-              </a>
+              <div key={item.name} className="relative">
+                {item.dropdown ? (
+                  <div 
+                    className="relative"
+                    onMouseEnter={() => setDropdownOpen(item.name)}
+                    onMouseLeave={() => setDropdownOpen(null)}
+                  >
+                    <button className="text-white hover:text-red-500 px-3 py-2 text-sm font-medium transition duration-200 flex items-center">
+                      {item.name}
+                      <ChevronDownIcon className="h-4 w-4 ml-1" />
+                    </button>
+                    {dropdownOpen === item.name && (
+                      <div className="absolute top-full left-0 w-48 bg-black bg-opacity-95 backdrop-blur-md rounded-md shadow-lg py-2 z-50">
+                        {item.dropdown.map((subItem) => (
+                          <a
+                            key={subItem.name}
+                            href={subItem.href}
+                            className="block px-4 py-2 text-sm text-white hover:text-red-500 hover:bg-red-500 hover:bg-opacity-10 transition duration-200"
+                          >
+                            {subItem.name}
+                          </a>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  <a
+                    href={item.href}
+                    className="text-white hover:text-red-500 px-3 py-2 text-sm font-medium transition duration-200"
+                  >
+                    {item.name}
+                  </a>
+                )}
+              </div>
             ))}
             
             {/* Cart Button */}
@@ -87,14 +135,41 @@ export default function Header() {
         <div className="md:hidden bg-black bg-opacity-95">
           <div className="px-2 pt-2 pb-3 space-y-1">
             {navigation.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className="text-white hover:text-red-500 block px-3 py-2 text-base font-medium"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {item.name}
-              </a>
+              <div key={item.name}>
+                {item.dropdown ? (
+                  <div>
+                    <button 
+                      className="text-white hover:text-red-500 block px-3 py-2 text-base font-medium w-full text-left flex items-center justify-between"
+                      onClick={() => setDropdownOpen(dropdownOpen === item.name ? null : item.name)}
+                    >
+                      {item.name}
+                      <ChevronDownIcon className={`h-4 w-4 transition-transform ${dropdownOpen === item.name ? 'rotate-180' : ''}`} />
+                    </button>
+                    {dropdownOpen === item.name && (
+                      <div className="pl-6 py-2 space-y-1">
+                        {item.dropdown.map((subItem) => (
+                          <a
+                            key={subItem.name}
+                            href={subItem.href}
+                            className="text-gray-300 hover:text-red-500 block px-3 py-1 text-sm"
+                            onClick={() => setIsMenuOpen(false)}
+                          >
+                            {subItem.name}
+                          </a>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  <a
+                    href={item.href}
+                    className="text-white hover:text-red-500 block px-3 py-2 text-base font-medium"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {item.name}
+                  </a>
+                )}
+              </div>
             ))}
           </div>
         </div>

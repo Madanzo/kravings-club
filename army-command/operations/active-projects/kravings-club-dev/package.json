@@ -5,8 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:static": "EXPORT_MODE=static next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy:vercel": "npm run build && vercel --prod",
+    "deploy:static": "npm run build:static"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.4",

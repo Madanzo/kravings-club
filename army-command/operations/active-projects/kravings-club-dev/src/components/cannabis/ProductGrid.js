@@ -1,87 +1,71 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { PlusIcon, StarIcon } from '@heroicons/react/24/outline';
+import { useState } from 'react';
+import { PlusIcon, StarIcon, ClockIcon, ExclamationTriangleIcon } from '@heroicons/react/24/outline';
 import { useCartStore } from '@/lib/cart';
-import { wp } from '@/lib/wordpress';
+import { useBlazeProducts, useBlazeCategories } from '@/hooks/useBlaze';
 
 export default function ProductGrid() {
-  const [products, setProducts] = useState([]);
-  const [loading, setLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState('all');
   const { addItem } = useCartStore();
+  
+  // Use Blaze hooks for real-time data
+  const { 
+    products: allProducts, 
+    loading: productsLoading, 
+    error: productsError,
+    lastUpdate,
+    refresh
+  } = useBlazeProducts();
+  
+  const { 
+    categories: blazeCategories, 
+    loading: categoriesLoading 
+  } = useBlazeCategories();
 
+  // Build categories list with Blaze data
   const categories = [
     { id: 'all', name: 'All Products' },
-    { id: 'flower', name: 'Flower' },
-    { id: 'edibles', name: 'Edibles' },
-    { id: 'vapes', name: 'Vapes' },
-    { id: 'concentrates', name: 'Concentrates' }
+    ...blazeCategories.map(cat => ({
+      id: cat.id || cat.slug,
+      name: cat.name
+    }))
   ];
 
-  // Sample products (replace with WordPress API data)
-  const sampleProducts = [
-    {
-      id: 1,
-      name: 'Girl Scout Cookies',
-      category: 'flower',
-      price: 45,
-      thc: 22.5,
-      type: 'Hybrid',
-      image: '/api/placeholder/300/300',
-      rating: 4.8,
-      reviews: 124
-    },
-    {
-      id: 2,
-      name: 'Blue Dream',
-      category: 'flower',
-      price: 40,
-      thc: 18.2,
-      type: 'Sativa',
-      image: '/api/placeholder/300/300',
-      rating: 4.7,
-      reviews: 89
-    },
-    {
-      id: 3,
-      name: 'Sour Gummies',
-      category: 'edibles',
-      price: 25,
-      thc: 10,
-      type: 'Edible',
-      image: '/api/placeholder/300/300',
-      rating: 4.9,
-      reviews: 156
-    },
-    {
-      id: 4,
-      name: 'Live Resin Cart',
-      category: 'vapes',
-      price: 55,
-      thc: 85.4,
-      type: 'Vape',
-      image: '/api/placeholder/300/300',
-      rating: 4.6,
-      reviews: 78
-    }
-  ];
-
-  useEffect(() => {
-    // Simulate loading products
-    setTimeout(() => {
-      setProducts(sampleProducts);
-      setLoading(false);
-    }, 1000);
-  }, []);
-
+  // Filter products by selected category
   const filteredProducts = selectedCategory === 'all' 
-    ? products 
-    : products.filter(product => product.category === selectedCategory);
+    ? allProducts 
+    : allProducts.filter(product => product.category === selectedCategory);
+
+  const loading = productsLoading || categoriesLoading;
 
   const handleAddToCart = (product) => {
+    // Check if product is in stock before adding to cart
+    if (!product.inStock) {
+      alert('Sorry, this product is currently out of stock.');
+      return;
+    }
     addItem(product);
   };
+
+  // Error state
+  if (productsError) {
+    return (
+      <div className="py-16 bg-gray-800">
+        <div className="max-w-7xl mx-auto px-4 text-center">
+          <ExclamationTriangleIcon className="h-16 w-16 text-red-500 mx-auto mb-4" />
+          <h2 className="text-2xl font-bold text-white mb-4">Unable to Load Products</h2>
+          <p className="text-gray-300 mb-6">{productsError}</p>
+          <button 
+            onClick={refresh}
+            className="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-6 rounded-lg transition duration-200"
+          >
+            Try Again
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   if (loading) {
     return (
@@ -109,8 +93,24 @@ export default function ProductGrid() {
     <div className="py-16 bg-gray-800">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-white mb-4">Featured Products</h2>
-          <p className="text-gray-300 mb-8">Premium cannabis products from top brands</p>
+          <div className="flex items-center justify-center mb-4">
+            <h2 className="text-3xl font-bold text-white">Featured Products</h2>
+            {lastUpdate && (
+              <div className="ml-4 flex items-center text-gray-400 text-sm">
+                <ClockIcon className="h-4 w-4 mr-1" />
+                <span>Updated {new Date(lastUpdate).toLocaleTimeString()}</span>
+                <button
+                  onClick={refresh}
+                  className="ml-2 text-red-400 hover:text-red-300 underline"
+                >
+                  Refresh
+                </button>
+              </div>
+            )}
+          </div>
+          <p className="text-gray-300 mb-8">
+            Live inventory from Blaze POS • Premium cannabis products from top brands
+          </p>
           
           {/* Category Filter */}
           <div className="flex flex-wrap justify-center gap-2 mb-8">
@@ -144,15 +144,30 @@ export default function ProductGrid() {
                     {product.thc}% THC
                   </span>
                 </div>
-                <div className="absolute top-4 right-4">
+                <div className="absolute top-4 right-4 flex flex-col gap-1">
                   <span className="bg-gray-800 bg-opacity-80 text-white px-2 py-1 rounded text-sm">
                     {product.type}
                   </span>
+                  {!product.inStock && (
+                    <span className="bg-red-600 text-white px-2 py-1 rounded text-xs font-bold">
+                      OUT OF STOCK
+                    </span>
+                  )}
+                  {product.inventory <= 5 && product.inStock && (
+                    <span className="bg-yellow-600 text-white px-2 py-1 rounded text-xs">
+                      LOW STOCK
+                    </span>
+                  )}
                 </div>
               </div>
               
               <div className="p-6">
-                <h3 className="text-xl font-bold text-white mb-2">{product.name}</h3>
+                <div className="flex items-center justify-between mb-2">
+                  <h3 className="text-xl font-bold text-white">{product.name}</h3>
+                  {product.brand && (
+                    <span className="text-sm text-gray-400 font-medium">{product.brand}</span>
+                  )}
+                </div>
                 
                 <div className="flex items-center mb-3">
                   <div className="flex items-center">
@@ -178,7 +193,12 @@ export default function ProductGrid() {
                   </span>
                   <button
                     onClick={() => handleAddToCart(product)}
-                    className="bg-red-500 hover:bg-red-600 text-white p-2 rounded-lg transition duration-200"
+                    disabled={!product.inStock}
+                    className={`p-2 rounded-lg transition duration-200 ${
+                      product.inStock 
+                        ? 'bg-red-500 hover:bg-red-600 text-white' 
+                        : 'bg-gray-600 text-gray-400 cursor-not-allowed'
+                    }`}
                   >
                     <PlusIcon className="h-5 w-5" />
                   </button>

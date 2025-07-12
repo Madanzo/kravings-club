@@ -3,7 +3,9 @@
 import { useState, useEffect } from 'react';
 import Layout from '@/components/layout/Layout';
 import HeroSection from '@/components/layout/HeroSection';
+import PromoBanner from '@/components/layout/PromoBanner';
 import ProductGrid from '@/components/cannabis/ProductGrid';
+import BrandShowcase from '@/components/layout/BrandShowcase';
 import ServiceAreas from '@/components/layout/ServiceAreas';
 import DeliveryPromise from '@/components/layout/DeliveryPromise';
 import CustomerReviews from '@/components/layout/CustomerReviews';
@@ -42,7 +44,9 @@ export default function HomePage() {
   return (
     <Layout>
       <HeroSection />
+      <PromoBanner />
       <ProductGrid />
+      <BrandShowcase />
       <DeliveryPromise />
       <ServiceAreas />
       <CustomerReviews />

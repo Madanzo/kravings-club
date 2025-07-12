@@ -1,15 +1,35 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
+  // Dynamic configuration based on deployment target
+  ...(process.env.EXPORT_MODE === 'static' ? {
+    output: 'export',
+    trailingSlash: true,
+    images: {
+      unoptimized: true,
+    }
+  } : {
+    // Server-side rendering for Vercel (default)
+    experimental: {
+      optimizeCss: true,
+    }
+  }),
+  
   images: {
-    domains: ['images.unsplash.com', 'via.placeholder.com'],
+    domains: ['images.unsplash.com', 'via.placeholder.com', 'api.blaze.me'],
+    ...(process.env.EXPORT_MODE === 'static' ? { unoptimized: true } : {})
   },
+  
+  // Environment variables accessible on client side
   env: {
-    WORDPRESS_API_URL: process.env.WORDPRESS_API_URL,
-    WP_USERNAME: process.env.WP_USERNAME,
-    WP_APP_PASSWORD: process.env.WP_APP_PASSWORD,
+    CUSTOM_KEY: 'vercel_deployment_enabled',
+    BLAZE_INTEGRATION_MODE: process.env.EXPORT_MODE === 'static' ? 'demo' : 'live'
+  },
+  
+  // Ensure environment variables are available at build time
+  experimental: {
+    ...(process.env.EXPORT_MODE !== 'static' && {
+      serverComponentsExternalPackages: ['axios']
+    })
   }
 }
 
