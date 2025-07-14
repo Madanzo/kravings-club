@@ -1,0 +1,17 @@
+{
+  "name": "madanzo-kravings-club",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd army-command/operations/active-projects/kravings-club-dev && npm install && npm run build",
+    "dev": "cd army-command/operations/active-projects/kravings-club-dev && npm run dev",
+    "start": "cd army-command/operations/active-projects/kravings-club-dev && npm run start",
+    "install-deps": "cd army-command/operations/active-projects/kravings-club-dev && npm install"
+  },
+  "dependencies": {
+    "next": "^14.2.30"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
