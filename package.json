@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "cd army-command/operations/active-projects/kravings-club-dev && npm ci && npm run build",
+    "build": "cd army-command/operations/active-projects/kravings-club-dev && npm install && npm run build",
     "dev": "cd army-command/operations/active-projects/kravings-club-dev && npm run dev",
     "start": "cd army-command/operations/active-projects/kravings-club-dev && npm run start",
-    "vercel-build": "cd army-command/operations/active-projects/kravings-club-dev && npm ci && npm run build"
+    "vercel-build": "cd army-command/operations/active-projects/kravings-club-dev && npm install && npm run build"
   },
   "dependencies": {
     "next": "^14.2.30",
