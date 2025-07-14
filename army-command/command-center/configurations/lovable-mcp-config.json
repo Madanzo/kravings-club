@@ -23,6 +23,100 @@
       "env": {
         "GITHUB_PERSONAL_ACCESS_TOKEN": "your_github_token_here"
       }
+    },
+    "puppeteer": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "--network=host",
+        "mcp/puppeteer"
+      ],
+      "env": {
+        "PUPPETEER_ARGS": "--no-sandbox --disable-setuid-sandbox"
+      }
+    },
+    "playwright": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "--network=host",
+        "--cap-add=SYS_ADMIN",
+        "mcr.microsoft.com/playwright:latest"
+      ],
+      "env": {
+        "PLAYWRIGHT_BROWSERS_PATH": "/ms-playwright"
+      }
+    },
+    "google-vision": {
+      "command": "npx",
+      "args": [
+        "@google-cloud/vision"
+      ],
+      "env": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "/workspaces/madanzo/army-command/command-center/configurations/google-vision-key.json",
+        "GOOGLE_CLOUD_PROJECT": "kravings-screenshot-mission"
+      }
+    },
+    "selenium": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "--network=host",
+        "--shm-size=2g",
+        "selenium/standalone-chrome:latest"
+      ]
+    },
+    "image-processing": {
+      "command": "npx",
+      "args": [
+        "sharp-cli"
+      ]
+    },
+    "network-monitor": {
+      "command": "npx",
+      "args": [
+        "lighthouse"
+      ],
+      "env": {
+        "CHROME_PATH": "/usr/bin/google-chrome"
+      }
+    },
+    "postgres": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-postgres"
+      ],
+      "env": {
+        "DATABASE_URL": "postgresql://user:password@localhost:5432/madanzo_db"
+      }
+    },
+    "fetch": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "--network=host",
+        "mcp/fetch"
+      ]
+    },
+    "time": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-time"
+      ]
+    },
+    "memory": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-memory"
+      ]
     }
   }
 }

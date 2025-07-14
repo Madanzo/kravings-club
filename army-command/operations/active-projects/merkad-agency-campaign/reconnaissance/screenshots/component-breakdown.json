@@ -1,0 +1,852 @@
+{
+  "navigation": [
+    {
+      "html": "<div class=\"elementor-element elementor-element-6d0afb4 twbb-nav-menu__align-right twbb-nav-menu--indicator-angle elementor-widget__width-inherit twbb-responsive-nav-menu--horizontal twbb-responsive-nav-menu--tablet-dropdown twbb-responsive-nav-menu--mobile-dropdown twbb-nav-menu--toggle twbb-nav-menu--burger twbb-nav-menu--stretch yes twbb-nav-menu__text-align-center elementor-widget elementor-widget-twbb-nav-menu two_elementor_element\" data-id=\"6d0afb4\" data-element_type=\"widget\" data-settings=\"{&quot;layout&quot;:&quot;horizontal&quot;,&quot;layout_tablet&quot;:&quot;dropdown&quot;,&quot;layout_mobile&quot;:&quot;dropdown&quot;,&quot;toggle&quot;:&quot;burger&quot;,&quot;full_width&quot;:&quot; yes&quot;}\" data-widget_type=\"twbb-nav-menu.default\"><div class=\"elementor-widget-container two_elementor_element\"><nav class=\"twbb-nav-menu--main twbb-nav-menu__container e--pointer-none two_elementor_element\"><ul id=\"menu-1-6d0afb4\" class=\"twbb-nav-menu twbb-menu_term_id-51 two_elementor_element\" data-smartmenus-id=\"17523613054855547\"><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1592 two_elementor_element\"><a href=\"/menu/\" class=\"twbb-item two_elementor_element has-submenu\" id=\"sm-17523613054855547-1\" aria-haspopup=\"true\" aria-controls=\"sm-17523613054855547-2\" aria-expanded=\"false\">Store<span class=\"sub-arrow\"><i class=\"fa\"></i></span></a><ul class=\"sub-menu twbb-nav-menu--dropdown two_elementor_element\" id=\"sm-17523613054855547-2\" role=\"group\" aria-hidden=\"true\" aria-labelledby=\"sm-17523613054855547-1\" aria-expanded=\"false\"><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1593 two_elementor_element\"><a href=\"/menu/categories/flower-half-ounces/\" class=\"twbb-sub-item two_elementor_element\">Flower</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1594 two_elementor_element\"><a href=\"/menu/categories/edibles/\" class=\"twbb-sub-item two_elementor_element\">Edible</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1595 two_elementor_element\"><a href=\"/menu/categories/concentrates/\" class=\"twbb-sub-item two_elementor_element\">Concentrates</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1596 two_elementor_element\"><a href=\"/menu/categories/infused-pre-roll/\" class=\"twbb-sub-item two_elementor_element\">Pre-Infused</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1597 two_elementor_element\"><a href=\"/menu/categories/pre-rolls/\" class=\"twbb-sub-item two_elementor_element\">Pre-Roll</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1598 two_elementor_element\"><a href=\"/menu/categories/vape-cartridges/\" class=\"twbb-sub-item two_elementor_element\">Vapes &amp; Carts</a></li></ul></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1600 two_elementor_element\"><a href=\"/blog\" class=\"twbb-item two_elementor_element\">Blog</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1601 two_elementor_element\"><a href=\"/about-us\" class=\"twbb-item two_elementor_element\">About Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1602 two_elementor_element\"><a href=\"/contactus\" class=\"twbb-item two_elementor_element\">Contact Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1603 two_elementor_element\"><a href=\"/faq\" class=\"twbb-item two_elementor_element\">FAQ</a></li></ul></nav><div class=\"twbb-menu-toggle two_elementor_element\" role=\"button\" tabindex=\"0\" aria-label=\"Menu Toggle\" aria-expanded=\"false\" style=\"\"><svg aria-hidden=\"true\" role=\"presentation\" class=\"twbb-menu-toggle__icon--open e-font-icon-svg e-eicon-menu-bar two_elementor_element\" viewBox=\"0 0 1000 1000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z\" class=\"two_elementor_element\"></path></svg><svg aria-hidden=\"true\" role=\"presentation\" class=\"twbb-menu-toggle__icon--close e-font-icon-svg e-eicon-close two_elementor_element\" viewBox=\"0 0 1000 1000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z\" class=\"two_elementor_element\"></path></svg><span class=\"elementor-screen-only two_elementor_element\">Menu</span></div><nav class=\"twbb-nav-menu--dropdown twbb-nav-menu__container two_elementor_element\" style=\"top: 45px; width: 375px; left: 0px;\"><ul id=\"menu-2-6d0afb4\" class=\"twbb-nav-menu twbb-menu_term_id-51 two_elementor_element\" data-smartmenus-id=\"17523613054900854\"><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1592 two_elementor_element\"><a href=\"/menu/\" class=\"twbb-item two_elementor_element has-submenu\" id=\"sm-17523613054900854-1\" aria-haspopup=\"true\" aria-controls=\"sm-17523613054900854-2\" aria-expanded=\"false\">Store<span class=\"sub-arrow\"><i class=\"fa\"></i></span></a><ul class=\"sub-menu twbb-nav-menu--dropdown two_elementor_element\" id=\"sm-17523613054900854-2\" role=\"group\" aria-hidden=\"true\" aria-labelledby=\"sm-17523613054900854-1\" aria-expanded=\"false\"><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1593 two_elementor_element\"><a href=\"/menu/categories/flower-half-ounces/\" class=\"twbb-sub-item two_elementor_element\">Flower</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1594 two_elementor_element\"><a href=\"/menu/categories/edibles/\" class=\"twbb-sub-item two_elementor_element\">Edible</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1595 two_elementor_element\"><a href=\"/menu/categories/concentrates/\" class=\"twbb-sub-item two_elementor_element\">Concentrates</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1596 two_elementor_element\"><a href=\"/menu/categories/infused-pre-roll/\" class=\"twbb-sub-item two_elementor_element\">Pre-Infused</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1597 two_elementor_element\"><a href=\"/menu/categories/pre-rolls/\" class=\"twbb-sub-item two_elementor_element\">Pre-Roll</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1598 two_elementor_element\"><a href=\"/menu/categories/vape-cartridges/\" class=\"twbb-sub-item two_elementor_element\">Vapes &amp; Carts</a></li></ul></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1600 two_elementor_element\"><a href=\"/blog\" class=\"twbb-item two_elementor_element\">Blog</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1601 two_elementor_element\"><a href=\"/about-us\" class=\"twbb-item two_elementor_element\">About Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1602 two_elementor_element\"><a href=\"/contactus\" class=\"twbb-item two_elementor_element\">Contact Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1603 two_elementor_element\"><a href=\"/faq\" class=\"twbb-item two_elementor_element\">FAQ</a></li></ul></nav></div></div>",
+      "links": [
+        {
+          "text": "Store",
+          "href": "https://kravings.club/menu/",
+          "className": "twbb-item two_elementor_element has-submenu"
+        },
+        {
+          "text": "Flower",
+          "href": "https://kravings.club/menu/categories/flower-half-ounces/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Edible",
+          "href": "https://kravings.club/menu/categories/edibles/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Concentrates",
+          "href": "https://kravings.club/menu/categories/concentrates/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Pre-Infused",
+          "href": "https://kravings.club/menu/categories/infused-pre-roll/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Pre-Roll",
+          "href": "https://kravings.club/menu/categories/pre-rolls/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Vapes & Carts",
+          "href": "https://kravings.club/menu/categories/vape-cartridges/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Blog",
+          "href": "https://kravings.club/blog",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "About Us",
+          "href": "https://kravings.club/about-us",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://kravings.club/contactus",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "FAQ",
+          "href": "https://kravings.club/faq",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Store",
+          "href": "https://kravings.club/menu/",
+          "className": "twbb-item two_elementor_element has-submenu"
+        },
+        {
+          "text": "Flower",
+          "href": "https://kravings.club/menu/categories/flower-half-ounces/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Edible",
+          "href": "https://kravings.club/menu/categories/edibles/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Concentrates",
+          "href": "https://kravings.club/menu/categories/concentrates/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Pre-Infused",
+          "href": "https://kravings.club/menu/categories/infused-pre-roll/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Pre-Roll",
+          "href": "https://kravings.club/menu/categories/pre-rolls/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Vapes & Carts",
+          "href": "https://kravings.club/menu/categories/vape-cartridges/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Blog",
+          "href": "https://kravings.club/blog",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "About Us",
+          "href": "https://kravings.club/about-us",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://kravings.club/contactus",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "FAQ",
+          "href": "https://kravings.club/faq",
+          "className": "twbb-item two_elementor_element"
+        }
+      ]
+    },
+    {
+      "html": "<nav class=\"twbb-nav-menu--main twbb-nav-menu__container e--pointer-none two_elementor_element\"><ul id=\"menu-1-6d0afb4\" class=\"twbb-nav-menu twbb-menu_term_id-51 two_elementor_element\" data-smartmenus-id=\"17523613054855547\"><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1592 two_elementor_element\"><a href=\"/menu/\" class=\"twbb-item two_elementor_element has-submenu\" id=\"sm-17523613054855547-1\" aria-haspopup=\"true\" aria-controls=\"sm-17523613054855547-2\" aria-expanded=\"false\">Store<span class=\"sub-arrow\"><i class=\"fa\"></i></span></a><ul class=\"sub-menu twbb-nav-menu--dropdown two_elementor_element\" id=\"sm-17523613054855547-2\" role=\"group\" aria-hidden=\"true\" aria-labelledby=\"sm-17523613054855547-1\" aria-expanded=\"false\"><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1593 two_elementor_element\"><a href=\"/menu/categories/flower-half-ounces/\" class=\"twbb-sub-item two_elementor_element\">Flower</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1594 two_elementor_element\"><a href=\"/menu/categories/edibles/\" class=\"twbb-sub-item two_elementor_element\">Edible</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1595 two_elementor_element\"><a href=\"/menu/categories/concentrates/\" class=\"twbb-sub-item two_elementor_element\">Concentrates</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1596 two_elementor_element\"><a href=\"/menu/categories/infused-pre-roll/\" class=\"twbb-sub-item two_elementor_element\">Pre-Infused</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1597 two_elementor_element\"><a href=\"/menu/categories/pre-rolls/\" class=\"twbb-sub-item two_elementor_element\">Pre-Roll</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1598 two_elementor_element\"><a href=\"/menu/categories/vape-cartridges/\" class=\"twbb-sub-item two_elementor_element\">Vapes &amp; Carts</a></li></ul></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1600 two_elementor_element\"><a href=\"/blog\" class=\"twbb-item two_elementor_element\">Blog</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1601 two_elementor_element\"><a href=\"/about-us\" class=\"twbb-item two_elementor_element\">About Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1602 two_elementor_element\"><a href=\"/contactus\" class=\"twbb-item two_elementor_element\">Contact Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1603 two_elementor_element\"><a href=\"/faq\" class=\"twbb-item two_elementor_element\">FAQ</a></li></ul></nav>",
+      "links": [
+        {
+          "text": "Store",
+          "href": "https://kravings.club/menu/",
+          "className": "twbb-item two_elementor_element has-submenu"
+        },
+        {
+          "text": "Flower",
+          "href": "https://kravings.club/menu/categories/flower-half-ounces/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Edible",
+          "href": "https://kravings.club/menu/categories/edibles/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Concentrates",
+          "href": "https://kravings.club/menu/categories/concentrates/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Pre-Infused",
+          "href": "https://kravings.club/menu/categories/infused-pre-roll/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Pre-Roll",
+          "href": "https://kravings.club/menu/categories/pre-rolls/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Vapes & Carts",
+          "href": "https://kravings.club/menu/categories/vape-cartridges/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Blog",
+          "href": "https://kravings.club/blog",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "About Us",
+          "href": "https://kravings.club/about-us",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://kravings.club/contactus",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "FAQ",
+          "href": "https://kravings.club/faq",
+          "className": "twbb-item two_elementor_element"
+        }
+      ]
+    },
+    {
+      "html": "<ul id=\"menu-1-6d0afb4\" class=\"twbb-nav-menu twbb-menu_term_id-51 two_elementor_element\" data-smartmenus-id=\"17523613054855547\"><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1592 two_elementor_element\"><a href=\"/menu/\" class=\"twbb-item two_elementor_element has-submenu\" id=\"sm-17523613054855547-1\" aria-haspopup=\"true\" aria-controls=\"sm-17523613054855547-2\" aria-expanded=\"false\">Store<span class=\"sub-arrow\"><i class=\"fa\"></i></span></a><ul class=\"sub-menu twbb-nav-menu--dropdown two_elementor_element\" id=\"sm-17523613054855547-2\" role=\"group\" aria-hidden=\"true\" aria-labelledby=\"sm-17523613054855547-1\" aria-expanded=\"false\"><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1593 two_elementor_element\"><a href=\"/menu/categories/flower-half-ounces/\" class=\"twbb-sub-item two_elementor_element\">Flower</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1594 two_elementor_element\"><a href=\"/menu/categories/edibles/\" class=\"twbb-sub-item two_elementor_element\">Edible</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1595 two_elementor_element\"><a href=\"/menu/categories/concentrates/\" class=\"twbb-sub-item two_elementor_element\">Concentrates</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1596 two_elementor_element\"><a href=\"/menu/categories/infused-pre-roll/\" class=\"twbb-sub-item two_elementor_element\">Pre-Infused</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1597 two_elementor_element\"><a href=\"/menu/categories/pre-rolls/\" class=\"twbb-sub-item two_elementor_element\">Pre-Roll</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1598 two_elementor_element\"><a href=\"/menu/categories/vape-cartridges/\" class=\"twbb-sub-item two_elementor_element\">Vapes &amp; Carts</a></li></ul></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1600 two_elementor_element\"><a href=\"/blog\" class=\"twbb-item two_elementor_element\">Blog</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1601 two_elementor_element\"><a href=\"/about-us\" class=\"twbb-item two_elementor_element\">About Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1602 two_elementor_element\"><a href=\"/contactus\" class=\"twbb-item two_elementor_element\">Contact Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1603 two_elementor_element\"><a href=\"/faq\" class=\"twbb-item two_elementor_element\">FAQ</a></li></ul>",
+      "links": [
+        {
+          "text": "Store",
+          "href": "https://kravings.club/menu/",
+          "className": "twbb-item two_elementor_element has-submenu"
+        },
+        {
+          "text": "Flower",
+          "href": "https://kravings.club/menu/categories/flower-half-ounces/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Edible",
+          "href": "https://kravings.club/menu/categories/edibles/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Concentrates",
+          "href": "https://kravings.club/menu/categories/concentrates/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Pre-Infused",
+          "href": "https://kravings.club/menu/categories/infused-pre-roll/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Pre-Roll",
+          "href": "https://kravings.club/menu/categories/pre-rolls/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Vapes & Carts",
+          "href": "https://kravings.club/menu/categories/vape-cartridges/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Blog",
+          "href": "https://kravings.club/blog",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "About Us",
+          "href": "https://kravings.club/about-us",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://kravings.club/contactus",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "FAQ",
+          "href": "https://kravings.club/faq",
+          "className": "twbb-item two_elementor_element"
+        }
+      ]
+    },
+    {
+      "html": "<ul class=\"sub-menu twbb-nav-menu--dropdown two_elementor_element\" id=\"sm-17523613054855547-2\" role=\"group\" aria-hidden=\"true\" aria-labelledby=\"sm-17523613054855547-1\" aria-expanded=\"false\"><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1593 two_elementor_element\"><a href=\"/menu/categories/flower-half-ounces/\" class=\"twbb-sub-item two_elementor_element\">Flower</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1594 two_elementor_element\"><a href=\"/menu/categories/edibles/\" class=\"twbb-sub-item two_elementor_element\">Edible</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1595 two_elementor_element\"><a href=\"/menu/categories/concentrates/\" class=\"twbb-sub-item two_elementor_element\">Concentrates</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1596 two_elementor_element\"><a href=\"/menu/categories/infused-pre-roll/\" class=\"twbb-sub-item two_elementor_element\">Pre-Infused</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1597 two_elementor_element\"><a href=\"/menu/categories/pre-rolls/\" class=\"twbb-sub-item two_elementor_element\">Pre-Roll</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1598 two_elementor_element\"><a href=\"/menu/categories/vape-cartridges/\" class=\"twbb-sub-item two_elementor_element\">Vapes &amp; Carts</a></li></ul>",
+      "links": [
+        {
+          "text": "Flower",
+          "href": "https://kravings.club/menu/categories/flower-half-ounces/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Edible",
+          "href": "https://kravings.club/menu/categories/edibles/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Concentrates",
+          "href": "https://kravings.club/menu/categories/concentrates/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Pre-Infused",
+          "href": "https://kravings.club/menu/categories/infused-pre-roll/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Pre-Roll",
+          "href": "https://kravings.club/menu/categories/pre-rolls/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Vapes & Carts",
+          "href": "https://kravings.club/menu/categories/vape-cartridges/",
+          "className": "twbb-sub-item two_elementor_element"
+        }
+      ]
+    },
+    {
+      "html": "<nav class=\"twbb-nav-menu--dropdown twbb-nav-menu__container two_elementor_element\" style=\"top: 45px; width: 375px; left: 0px;\"><ul id=\"menu-2-6d0afb4\" class=\"twbb-nav-menu twbb-menu_term_id-51 two_elementor_element\" data-smartmenus-id=\"17523613054900854\"><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1592 two_elementor_element\"><a href=\"/menu/\" class=\"twbb-item two_elementor_element has-submenu\" id=\"sm-17523613054900854-1\" aria-haspopup=\"true\" aria-controls=\"sm-17523613054900854-2\" aria-expanded=\"false\">Store<span class=\"sub-arrow\"><i class=\"fa\"></i></span></a><ul class=\"sub-menu twbb-nav-menu--dropdown two_elementor_element\" id=\"sm-17523613054900854-2\" role=\"group\" aria-hidden=\"true\" aria-labelledby=\"sm-17523613054900854-1\" aria-expanded=\"false\"><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1593 two_elementor_element\"><a href=\"/menu/categories/flower-half-ounces/\" class=\"twbb-sub-item two_elementor_element\">Flower</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1594 two_elementor_element\"><a href=\"/menu/categories/edibles/\" class=\"twbb-sub-item two_elementor_element\">Edible</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1595 two_elementor_element\"><a href=\"/menu/categories/concentrates/\" class=\"twbb-sub-item two_elementor_element\">Concentrates</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1596 two_elementor_element\"><a href=\"/menu/categories/infused-pre-roll/\" class=\"twbb-sub-item two_elementor_element\">Pre-Infused</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1597 two_elementor_element\"><a href=\"/menu/categories/pre-rolls/\" class=\"twbb-sub-item two_elementor_element\">Pre-Roll</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1598 two_elementor_element\"><a href=\"/menu/categories/vape-cartridges/\" class=\"twbb-sub-item two_elementor_element\">Vapes &amp; Carts</a></li></ul></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1600 two_elementor_element\"><a href=\"/blog\" class=\"twbb-item two_elementor_element\">Blog</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1601 two_elementor_element\"><a href=\"/about-us\" class=\"twbb-item two_elementor_element\">About Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1602 two_elementor_element\"><a href=\"/contactus\" class=\"twbb-item two_elementor_element\">Contact Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1603 two_elementor_element\"><a href=\"/faq\" class=\"twbb-item two_elementor_element\">FAQ</a></li></ul></nav>",
+      "links": [
+        {
+          "text": "Store",
+          "href": "https://kravings.club/menu/",
+          "className": "twbb-item two_elementor_element has-submenu"
+        },
+        {
+          "text": "Flower",
+          "href": "https://kravings.club/menu/categories/flower-half-ounces/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Edible",
+          "href": "https://kravings.club/menu/categories/edibles/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Concentrates",
+          "href": "https://kravings.club/menu/categories/concentrates/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Pre-Infused",
+          "href": "https://kravings.club/menu/categories/infused-pre-roll/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Pre-Roll",
+          "href": "https://kravings.club/menu/categories/pre-rolls/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Vapes & Carts",
+          "href": "https://kravings.club/menu/categories/vape-cartridges/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Blog",
+          "href": "https://kravings.club/blog",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "About Us",
+          "href": "https://kravings.club/about-us",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://kravings.club/contactus",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "FAQ",
+          "href": "https://kravings.club/faq",
+          "className": "twbb-item two_elementor_element"
+        }
+      ]
+    },
+    {
+      "html": "<ul id=\"menu-2-6d0afb4\" class=\"twbb-nav-menu twbb-menu_term_id-51 two_elementor_element\" data-smartmenus-id=\"17523613054900854\"><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1592 two_elementor_element\"><a href=\"/menu/\" class=\"twbb-item two_elementor_element has-submenu\" id=\"sm-17523613054900854-1\" aria-haspopup=\"true\" aria-controls=\"sm-17523613054900854-2\" aria-expanded=\"false\">Store<span class=\"sub-arrow\"><i class=\"fa\"></i></span></a><ul class=\"sub-menu twbb-nav-menu--dropdown two_elementor_element\" id=\"sm-17523613054900854-2\" role=\"group\" aria-hidden=\"true\" aria-labelledby=\"sm-17523613054900854-1\" aria-expanded=\"false\"><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1593 two_elementor_element\"><a href=\"/menu/categories/flower-half-ounces/\" class=\"twbb-sub-item two_elementor_element\">Flower</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1594 two_elementor_element\"><a href=\"/menu/categories/edibles/\" class=\"twbb-sub-item two_elementor_element\">Edible</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1595 two_elementor_element\"><a href=\"/menu/categories/concentrates/\" class=\"twbb-sub-item two_elementor_element\">Concentrates</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1596 two_elementor_element\"><a href=\"/menu/categories/infused-pre-roll/\" class=\"twbb-sub-item two_elementor_element\">Pre-Infused</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1597 two_elementor_element\"><a href=\"/menu/categories/pre-rolls/\" class=\"twbb-sub-item two_elementor_element\">Pre-Roll</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1598 two_elementor_element\"><a href=\"/menu/categories/vape-cartridges/\" class=\"twbb-sub-item two_elementor_element\">Vapes &amp; Carts</a></li></ul></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1600 two_elementor_element\"><a href=\"/blog\" class=\"twbb-item two_elementor_element\">Blog</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1601 two_elementor_element\"><a href=\"/about-us\" class=\"twbb-item two_elementor_element\">About Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1602 two_elementor_element\"><a href=\"/contactus\" class=\"twbb-item two_elementor_element\">Contact Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1603 two_elementor_element\"><a href=\"/faq\" class=\"twbb-item two_elementor_element\">FAQ</a></li></ul>",
+      "links": [
+        {
+          "text": "Store",
+          "href": "https://kravings.club/menu/",
+          "className": "twbb-item two_elementor_element has-submenu"
+        },
+        {
+          "text": "Flower",
+          "href": "https://kravings.club/menu/categories/flower-half-ounces/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Edible",
+          "href": "https://kravings.club/menu/categories/edibles/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Concentrates",
+          "href": "https://kravings.club/menu/categories/concentrates/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Pre-Infused",
+          "href": "https://kravings.club/menu/categories/infused-pre-roll/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Pre-Roll",
+          "href": "https://kravings.club/menu/categories/pre-rolls/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Vapes & Carts",
+          "href": "https://kravings.club/menu/categories/vape-cartridges/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Blog",
+          "href": "https://kravings.club/blog",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "About Us",
+          "href": "https://kravings.club/about-us",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://kravings.club/contactus",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "FAQ",
+          "href": "https://kravings.club/faq",
+          "className": "twbb-item two_elementor_element"
+        }
+      ]
+    },
+    {
+      "html": "<ul class=\"sub-menu twbb-nav-menu--dropdown two_elementor_element\" id=\"sm-17523613054900854-2\" role=\"group\" aria-hidden=\"true\" aria-labelledby=\"sm-17523613054900854-1\" aria-expanded=\"false\"><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1593 two_elementor_element\"><a href=\"/menu/categories/flower-half-ounces/\" class=\"twbb-sub-item two_elementor_element\">Flower</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1594 two_elementor_element\"><a href=\"/menu/categories/edibles/\" class=\"twbb-sub-item two_elementor_element\">Edible</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1595 two_elementor_element\"><a href=\"/menu/categories/concentrates/\" class=\"twbb-sub-item two_elementor_element\">Concentrates</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1596 two_elementor_element\"><a href=\"/menu/categories/infused-pre-roll/\" class=\"twbb-sub-item two_elementor_element\">Pre-Infused</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1597 two_elementor_element\"><a href=\"/menu/categories/pre-rolls/\" class=\"twbb-sub-item two_elementor_element\">Pre-Roll</a></li><li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-1598 two_elementor_element\"><a href=\"/menu/categories/vape-cartridges/\" class=\"twbb-sub-item two_elementor_element\">Vapes &amp; Carts</a></li></ul>",
+      "links": [
+        {
+          "text": "Flower",
+          "href": "https://kravings.club/menu/categories/flower-half-ounces/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Edible",
+          "href": "https://kravings.club/menu/categories/edibles/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Concentrates",
+          "href": "https://kravings.club/menu/categories/concentrates/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Pre-Infused",
+          "href": "https://kravings.club/menu/categories/infused-pre-roll/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Pre-Roll",
+          "href": "https://kravings.club/menu/categories/pre-rolls/",
+          "className": "twbb-sub-item two_elementor_element"
+        },
+        {
+          "text": "Vapes & Carts",
+          "href": "https://kravings.club/menu/categories/vape-cartridges/",
+          "className": "twbb-sub-item two_elementor_element"
+        }
+      ]
+    },
+    {
+      "html": "<header class=\"ProductsListHeader__CategoryHeader-wb0oa3-3 fbbSWQ two_elementor_element\"><h2 class=\"ProductsListHeader__CategoryTitle-wb0oa3-4 jFRJWV two_elementor_element\"><span class=\"two_elementor_element\"></span></h2><a class=\"ViewAllLink__CustomLink-ta4buk-0 ftSqEn ProductsListHeader__CustomViewAllLink-wb0oa3-5 cEtWAg two_elementor_element\" href=\"/menu/?category=flower\" style=\"text-decoration: none;\"><span class=\"ViewAllLink__ViewAllText-ta4buk-1 fQpayy two_elementor_element\"><span class=\"two_elementor_element\">View All</span><svg viewBox=\"0 0 24 24\" focusable=\"false\" role=\"img\" fill=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\" aria-label=\"View all category gelato products\" class=\"sc-AxiKw fwUcoW ViewAllLink__ChevronRightIcon-ta4buk-2 ieTAeK two_elementor_element\"><title class=\"two_elementor_element\">View all</title><path d=\"M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z\" class=\"two_elementor_element\"></path></svg></span></a></header>",
+      "links": [
+        {
+          "text": "",
+          "href": "https://kravings.club/menu/?category=flower",
+          "className": "ViewAllLink__CustomLink-ta4buk-0 ftSqEn ProductsListHeader__CustomViewAllLink-wb0oa3-5 cEtWAg two_elementor_element"
+        }
+      ]
+    },
+    {
+      "html": "<header class=\"ProductsListHeader__CategoryHeader-wb0oa3-3 fbbSWQ two_elementor_element\"><h2 class=\"ProductsListHeader__CategoryTitle-wb0oa3-4 jFRJWV two_elementor_element\"><span class=\"two_elementor_element\"></span></h2><a class=\"ViewAllLink__CustomLink-ta4buk-0 ftSqEn ProductsListHeader__CustomViewAllLink-wb0oa3-5 cEtWAg two_elementor_element\" href=\"/menu/?category=concentrates\" style=\"text-decoration: none;\"><span class=\"ViewAllLink__ViewAllText-ta4buk-1 fQpayy two_elementor_element\"><span class=\"two_elementor_element\">View All</span><svg viewBox=\"0 0 24 24\" focusable=\"false\" role=\"img\" fill=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\" aria-label=\"View all category gelato products\" class=\"sc-AxiKw fwUcoW ViewAllLink__ChevronRightIcon-ta4buk-2 ieTAeK two_elementor_element\"><title class=\"two_elementor_element\">View all</title><path d=\"M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z\" class=\"two_elementor_element\"></path></svg></span></a></header>",
+      "links": [
+        {
+          "text": "",
+          "href": "https://kravings.club/menu/?category=concentrates",
+          "className": "ViewAllLink__CustomLink-ta4buk-0 ftSqEn ProductsListHeader__CustomViewAllLink-wb0oa3-5 cEtWAg two_elementor_element"
+        }
+      ]
+    },
+    {
+      "html": "<header class=\"ProductsListHeader__CategoryHeader-wb0oa3-3 fbbSWQ two_elementor_element\"><h2 class=\"ProductsListHeader__CategoryTitle-wb0oa3-4 jFRJWV two_elementor_element\"><span class=\"two_elementor_element\"></span></h2><a class=\"ViewAllLink__CustomLink-ta4buk-0 ftSqEn ProductsListHeader__CustomViewAllLink-wb0oa3-5 cEtWAg two_elementor_element\" href=\"/menu/?category=edibles\" style=\"text-decoration: none;\"><span class=\"ViewAllLink__ViewAllText-ta4buk-1 fQpayy two_elementor_element\"><span class=\"two_elementor_element\">View All</span><svg viewBox=\"0 0 24 24\" focusable=\"false\" role=\"img\" fill=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\" aria-label=\"View all category gelato products\" class=\"sc-AxiKw fwUcoW ViewAllLink__ChevronRightIcon-ta4buk-2 ieTAeK two_elementor_element\"><title class=\"two_elementor_element\">View all</title><path d=\"M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z\" class=\"two_elementor_element\"></path></svg></span></a></header>",
+      "links": [
+        {
+          "text": "",
+          "href": "https://kravings.club/menu/?category=edibles",
+          "className": "ViewAllLink__CustomLink-ta4buk-0 ftSqEn ProductsListHeader__CustomViewAllLink-wb0oa3-5 cEtWAg two_elementor_element"
+        }
+      ]
+    },
+    {
+      "html": "<header class=\"ProductsListHeader__CategoryHeader-wb0oa3-3 fbbSWQ two_elementor_element\"><h2 class=\"ProductsListHeader__CategoryTitle-wb0oa3-4 jFRJWV two_elementor_element\"><span class=\"two_elementor_element\"></span></h2><a class=\"ViewAllLink__CustomLink-ta4buk-0 ftSqEn ProductsListHeader__CustomViewAllLink-wb0oa3-5 cEtWAg two_elementor_element\" href=\"/menu/?category=vape-cartridges\" style=\"text-decoration: none;\"><span class=\"ViewAllLink__ViewAllText-ta4buk-1 fQpayy two_elementor_element\"><span class=\"two_elementor_element\">View All</span><svg viewBox=\"0 0 24 24\" focusable=\"false\" role=\"img\" fill=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\" aria-label=\"View all category gelato products\" class=\"sc-AxiKw fwUcoW ViewAllLink__ChevronRightIcon-ta4buk-2 ieTAeK two_elementor_element\"><title class=\"two_elementor_element\">View all</title><path d=\"M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z\" class=\"two_elementor_element\"></path></svg></span></a></header>",
+      "links": [
+        {
+          "text": "",
+          "href": "https://kravings.club/menu/?category=vape-cartridges",
+          "className": "ViewAllLink__CustomLink-ta4buk-0 ftSqEn ProductsListHeader__CustomViewAllLink-wb0oa3-5 cEtWAg two_elementor_element"
+        }
+      ]
+    },
+    {
+      "html": "<div class=\"elementor-element elementor-element-3bfb747 twbb-responsive-nav-menu--vertical twbb-nav-menu__align-left twbb-nav-menu--indicator-none twbb-responsive-nav-menu--tablet-dropdown twbb-responsive-nav-menu--mobile-dropdown elementor-widget elementor-widget-twbb-nav-menu two_elementor_element\" data-id=\"3bfb747\" data-element_type=\"widget\" data-settings=\"{&quot;layout&quot;:&quot;vertical&quot;,&quot;layout_tablet&quot;:&quot;dropdown&quot;,&quot;layout_mobile&quot;:&quot;dropdown&quot;,&quot;menu-columns&quot;:&quot;1&quot;}\" data-widget_type=\"twbb-nav-menu.default\"><div class=\"elementor-widget-container two_elementor_element\"><nav class=\"twbb-nav-menu--main twbb-nav-menu__container e--pointer-double-line e--animation-grow two_elementor_element\"><ul id=\"menu-1-3bfb747\" class=\"twbb-nav-menu twbb-menu_term_id-50 sm-vertical twbb-menu-columns two_elementor_element\" data-smartmenus-id=\"17523613056909402\"><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1577 two_elementor_element\"><a href=\"/about-us\" class=\"twbb-item two_elementor_element\">About Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1578 two_elementor_element\"><a href=\"/contactus\" class=\"twbb-item two_elementor_element\">Contact Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1579 two_elementor_element\"><a href=\"/blog\" class=\"twbb-item two_elementor_element\">Blog</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1580 two_elementor_element\"><a href=\"/faq\" class=\"twbb-item two_elementor_element\">FAQ</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1581 two_elementor_element\"><a href=\"/legal-stuff\" class=\"twbb-item two_elementor_element\">Legal Stuff</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1582 two_elementor_element\"><a href=\"/privacypolicy\" class=\"twbb-item two_elementor_element\">Privacy Policy</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1584 two_elementor_element\"><a href=\"/all-the-best-things-to-do-at-aquarium-of-the-pacific-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">Discover Aquarium of the Pacific – Bushwick Weed Delivery</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1585 two_elementor_element\"><a href=\"/all-the-fun-things-to-do-at-south-gate-park-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">Exciting Activities at South Gate Park in Lynwood, CA</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1586 two_elementor_element\"><a href=\"/all-the-things-to-do-at-la-pasta-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">All The Things to do at La Pasta in Lynwood, CA</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1587 two_elementor_element\"><a href=\"/all-the-things-to-explore-at-natural-history-museum-of-los-angeles-county\" class=\"twbb-item two_elementor_element\">All The Things to Explore at Natural History Museum of Los Angeles County</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1588 two_elementor_element\"><a href=\"/all-the-things-to-know-at-hacienda-mariana-restaurant-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">All The Things to Know at Hacienda Mariana Restaurant in Lynwood, CA</a></li></ul></nav><nav class=\"twbb-nav-menu--dropdown twbb-nav-menu__container two_elementor_element\"><ul id=\"menu-2-3bfb747\" class=\"twbb-nav-menu twbb-menu_term_id-50 sm-vertical twbb-menu-columns two_elementor_element\" data-smartmenus-id=\"17523613056901309\"><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1577 two_elementor_element\"><a href=\"/about-us\" class=\"twbb-item two_elementor_element\">About Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1578 two_elementor_element\"><a href=\"/contactus\" class=\"twbb-item two_elementor_element\">Contact Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1579 two_elementor_element\"><a href=\"/blog\" class=\"twbb-item two_elementor_element\">Blog</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1580 two_elementor_element\"><a href=\"/faq\" class=\"twbb-item two_elementor_element\">FAQ</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1581 two_elementor_element\"><a href=\"/legal-stuff\" class=\"twbb-item two_elementor_element\">Legal Stuff</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1582 two_elementor_element\"><a href=\"/privacypolicy\" class=\"twbb-item two_elementor_element\">Privacy Policy</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1584 two_elementor_element\"><a href=\"/all-the-best-things-to-do-at-aquarium-of-the-pacific-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">Discover Aquarium of the Pacific – Bushwick Weed Delivery</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1585 two_elementor_element\"><a href=\"/all-the-fun-things-to-do-at-south-gate-park-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">Exciting Activities at South Gate Park in Lynwood, CA</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1586 two_elementor_element\"><a href=\"/all-the-things-to-do-at-la-pasta-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">All The Things to do at La Pasta in Lynwood, CA</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1587 two_elementor_element\"><a href=\"/all-the-things-to-explore-at-natural-history-museum-of-los-angeles-county\" class=\"twbb-item two_elementor_element\">All The Things to Explore at Natural History Museum of Los Angeles County</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1588 two_elementor_element\"><a href=\"/all-the-things-to-know-at-hacienda-mariana-restaurant-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">All The Things to Know at Hacienda Mariana Restaurant in Lynwood, CA</a></li></ul></nav></div></div>",
+      "links": [
+        {
+          "text": "About Us",
+          "href": "https://kravings.club/about-us",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://kravings.club/contactus",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Blog",
+          "href": "https://kravings.club/blog",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "FAQ",
+          "href": "https://kravings.club/faq",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Legal Stuff",
+          "href": "https://kravings.club/legal-stuff",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://kravings.club/privacypolicy",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Discover Aquarium of the Pacific – Bushwick Weed Delivery",
+          "href": "https://kravings.club/all-the-best-things-to-do-at-aquarium-of-the-pacific-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Exciting Activities at South Gate Park in Lynwood, CA",
+          "href": "https://kravings.club/all-the-fun-things-to-do-at-south-gate-park-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "All The Things to do at La Pasta in Lynwood, CA",
+          "href": "https://kravings.club/all-the-things-to-do-at-la-pasta-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "All The Things to Explore at Natural History Museum of Los Angeles County",
+          "href": "https://kravings.club/all-the-things-to-explore-at-natural-history-museum-of-los-angeles-county",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "All The Things to Know at Hacienda Mariana Restaurant in Lynwood, CA",
+          "href": "https://kravings.club/all-the-things-to-know-at-hacienda-mariana-restaurant-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "About Us",
+          "href": "https://kravings.club/about-us",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://kravings.club/contactus",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Blog",
+          "href": "https://kravings.club/blog",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "FAQ",
+          "href": "https://kravings.club/faq",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Legal Stuff",
+          "href": "https://kravings.club/legal-stuff",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://kravings.club/privacypolicy",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Discover Aquarium of the Pacific – Bushwick Weed Delivery",
+          "href": "https://kravings.club/all-the-best-things-to-do-at-aquarium-of-the-pacific-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Exciting Activities at South Gate Park in Lynwood, CA",
+          "href": "https://kravings.club/all-the-fun-things-to-do-at-south-gate-park-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "All The Things to do at La Pasta in Lynwood, CA",
+          "href": "https://kravings.club/all-the-things-to-do-at-la-pasta-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "All The Things to Explore at Natural History Museum of Los Angeles County",
+          "href": "https://kravings.club/all-the-things-to-explore-at-natural-history-museum-of-los-angeles-county",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "All The Things to Know at Hacienda Mariana Restaurant in Lynwood, CA",
+          "href": "https://kravings.club/all-the-things-to-know-at-hacienda-mariana-restaurant-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        }
+      ]
+    },
+    {
+      "html": "<nav class=\"twbb-nav-menu--main twbb-nav-menu__container e--pointer-double-line e--animation-grow two_elementor_element\"><ul id=\"menu-1-3bfb747\" class=\"twbb-nav-menu twbb-menu_term_id-50 sm-vertical twbb-menu-columns two_elementor_element\" data-smartmenus-id=\"17523613056909402\"><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1577 two_elementor_element\"><a href=\"/about-us\" class=\"twbb-item two_elementor_element\">About Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1578 two_elementor_element\"><a href=\"/contactus\" class=\"twbb-item two_elementor_element\">Contact Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1579 two_elementor_element\"><a href=\"/blog\" class=\"twbb-item two_elementor_element\">Blog</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1580 two_elementor_element\"><a href=\"/faq\" class=\"twbb-item two_elementor_element\">FAQ</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1581 two_elementor_element\"><a href=\"/legal-stuff\" class=\"twbb-item two_elementor_element\">Legal Stuff</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1582 two_elementor_element\"><a href=\"/privacypolicy\" class=\"twbb-item two_elementor_element\">Privacy Policy</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1584 two_elementor_element\"><a href=\"/all-the-best-things-to-do-at-aquarium-of-the-pacific-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">Discover Aquarium of the Pacific – Bushwick Weed Delivery</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1585 two_elementor_element\"><a href=\"/all-the-fun-things-to-do-at-south-gate-park-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">Exciting Activities at South Gate Park in Lynwood, CA</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1586 two_elementor_element\"><a href=\"/all-the-things-to-do-at-la-pasta-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">All The Things to do at La Pasta in Lynwood, CA</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1587 two_elementor_element\"><a href=\"/all-the-things-to-explore-at-natural-history-museum-of-los-angeles-county\" class=\"twbb-item two_elementor_element\">All The Things to Explore at Natural History Museum of Los Angeles County</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1588 two_elementor_element\"><a href=\"/all-the-things-to-know-at-hacienda-mariana-restaurant-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">All The Things to Know at Hacienda Mariana Restaurant in Lynwood, CA</a></li></ul></nav>",
+      "links": [
+        {
+          "text": "About Us",
+          "href": "https://kravings.club/about-us",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://kravings.club/contactus",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Blog",
+          "href": "https://kravings.club/blog",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "FAQ",
+          "href": "https://kravings.club/faq",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Legal Stuff",
+          "href": "https://kravings.club/legal-stuff",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://kravings.club/privacypolicy",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Discover Aquarium of the Pacific – Bushwick Weed Delivery",
+          "href": "https://kravings.club/all-the-best-things-to-do-at-aquarium-of-the-pacific-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Exciting Activities at South Gate Park in Lynwood, CA",
+          "href": "https://kravings.club/all-the-fun-things-to-do-at-south-gate-park-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "All The Things to do at La Pasta in Lynwood, CA",
+          "href": "https://kravings.club/all-the-things-to-do-at-la-pasta-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "All The Things to Explore at Natural History Museum of Los Angeles County",
+          "href": "https://kravings.club/all-the-things-to-explore-at-natural-history-museum-of-los-angeles-county",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "All The Things to Know at Hacienda Mariana Restaurant in Lynwood, CA",
+          "href": "https://kravings.club/all-the-things-to-know-at-hacienda-mariana-restaurant-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        }
+      ]
+    },
+    {
+      "html": "<ul id=\"menu-1-3bfb747\" class=\"twbb-nav-menu twbb-menu_term_id-50 sm-vertical twbb-menu-columns two_elementor_element\" data-smartmenus-id=\"17523613056909402\"><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1577 two_elementor_element\"><a href=\"/about-us\" class=\"twbb-item two_elementor_element\">About Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1578 two_elementor_element\"><a href=\"/contactus\" class=\"twbb-item two_elementor_element\">Contact Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1579 two_elementor_element\"><a href=\"/blog\" class=\"twbb-item two_elementor_element\">Blog</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1580 two_elementor_element\"><a href=\"/faq\" class=\"twbb-item two_elementor_element\">FAQ</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1581 two_elementor_element\"><a href=\"/legal-stuff\" class=\"twbb-item two_elementor_element\">Legal Stuff</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1582 two_elementor_element\"><a href=\"/privacypolicy\" class=\"twbb-item two_elementor_element\">Privacy Policy</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1584 two_elementor_element\"><a href=\"/all-the-best-things-to-do-at-aquarium-of-the-pacific-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">Discover Aquarium of the Pacific – Bushwick Weed Delivery</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1585 two_elementor_element\"><a href=\"/all-the-fun-things-to-do-at-south-gate-park-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">Exciting Activities at South Gate Park in Lynwood, CA</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1586 two_elementor_element\"><a href=\"/all-the-things-to-do-at-la-pasta-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">All The Things to do at La Pasta in Lynwood, CA</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1587 two_elementor_element\"><a href=\"/all-the-things-to-explore-at-natural-history-museum-of-los-angeles-county\" class=\"twbb-item two_elementor_element\">All The Things to Explore at Natural History Museum of Los Angeles County</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1588 two_elementor_element\"><a href=\"/all-the-things-to-know-at-hacienda-mariana-restaurant-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">All The Things to Know at Hacienda Mariana Restaurant in Lynwood, CA</a></li></ul>",
+      "links": [
+        {
+          "text": "About Us",
+          "href": "https://kravings.club/about-us",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://kravings.club/contactus",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Blog",
+          "href": "https://kravings.club/blog",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "FAQ",
+          "href": "https://kravings.club/faq",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Legal Stuff",
+          "href": "https://kravings.club/legal-stuff",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://kravings.club/privacypolicy",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Discover Aquarium of the Pacific – Bushwick Weed Delivery",
+          "href": "https://kravings.club/all-the-best-things-to-do-at-aquarium-of-the-pacific-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Exciting Activities at South Gate Park in Lynwood, CA",
+          "href": "https://kravings.club/all-the-fun-things-to-do-at-south-gate-park-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "All The Things to do at La Pasta in Lynwood, CA",
+          "href": "https://kravings.club/all-the-things-to-do-at-la-pasta-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "All The Things to Explore at Natural History Museum of Los Angeles County",
+          "href": "https://kravings.club/all-the-things-to-explore-at-natural-history-museum-of-los-angeles-county",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "All The Things to Know at Hacienda Mariana Restaurant in Lynwood, CA",
+          "href": "https://kravings.club/all-the-things-to-know-at-hacienda-mariana-restaurant-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        }
+      ]
+    },
+    {
+      "html": "<nav class=\"twbb-nav-menu--dropdown twbb-nav-menu__container two_elementor_element\"><ul id=\"menu-2-3bfb747\" class=\"twbb-nav-menu twbb-menu_term_id-50 sm-vertical twbb-menu-columns two_elementor_element\" data-smartmenus-id=\"17523613056901309\"><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1577 two_elementor_element\"><a href=\"/about-us\" class=\"twbb-item two_elementor_element\">About Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1578 two_elementor_element\"><a href=\"/contactus\" class=\"twbb-item two_elementor_element\">Contact Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1579 two_elementor_element\"><a href=\"/blog\" class=\"twbb-item two_elementor_element\">Blog</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1580 two_elementor_element\"><a href=\"/faq\" class=\"twbb-item two_elementor_element\">FAQ</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1581 two_elementor_element\"><a href=\"/legal-stuff\" class=\"twbb-item two_elementor_element\">Legal Stuff</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1582 two_elementor_element\"><a href=\"/privacypolicy\" class=\"twbb-item two_elementor_element\">Privacy Policy</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1584 two_elementor_element\"><a href=\"/all-the-best-things-to-do-at-aquarium-of-the-pacific-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">Discover Aquarium of the Pacific – Bushwick Weed Delivery</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1585 two_elementor_element\"><a href=\"/all-the-fun-things-to-do-at-south-gate-park-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">Exciting Activities at South Gate Park in Lynwood, CA</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1586 two_elementor_element\"><a href=\"/all-the-things-to-do-at-la-pasta-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">All The Things to do at La Pasta in Lynwood, CA</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1587 two_elementor_element\"><a href=\"/all-the-things-to-explore-at-natural-history-museum-of-los-angeles-county\" class=\"twbb-item two_elementor_element\">All The Things to Explore at Natural History Museum of Los Angeles County</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1588 two_elementor_element\"><a href=\"/all-the-things-to-know-at-hacienda-mariana-restaurant-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">All The Things to Know at Hacienda Mariana Restaurant in Lynwood, CA</a></li></ul></nav>",
+      "links": [
+        {
+          "text": "About Us",
+          "href": "https://kravings.club/about-us",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://kravings.club/contactus",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Blog",
+          "href": "https://kravings.club/blog",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "FAQ",
+          "href": "https://kravings.club/faq",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Legal Stuff",
+          "href": "https://kravings.club/legal-stuff",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://kravings.club/privacypolicy",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Discover Aquarium of the Pacific – Bushwick Weed Delivery",
+          "href": "https://kravings.club/all-the-best-things-to-do-at-aquarium-of-the-pacific-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Exciting Activities at South Gate Park in Lynwood, CA",
+          "href": "https://kravings.club/all-the-fun-things-to-do-at-south-gate-park-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "All The Things to do at La Pasta in Lynwood, CA",
+          "href": "https://kravings.club/all-the-things-to-do-at-la-pasta-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "All The Things to Explore at Natural History Museum of Los Angeles County",
+          "href": "https://kravings.club/all-the-things-to-explore-at-natural-history-museum-of-los-angeles-county",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "All The Things to Know at Hacienda Mariana Restaurant in Lynwood, CA",
+          "href": "https://kravings.club/all-the-things-to-know-at-hacienda-mariana-restaurant-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        }
+      ]
+    },
+    {
+      "html": "<ul id=\"menu-2-3bfb747\" class=\"twbb-nav-menu twbb-menu_term_id-50 sm-vertical twbb-menu-columns two_elementor_element\" data-smartmenus-id=\"17523613056901309\"><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1577 two_elementor_element\"><a href=\"/about-us\" class=\"twbb-item two_elementor_element\">About Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1578 two_elementor_element\"><a href=\"/contactus\" class=\"twbb-item two_elementor_element\">Contact Us</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1579 two_elementor_element\"><a href=\"/blog\" class=\"twbb-item two_elementor_element\">Blog</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1580 two_elementor_element\"><a href=\"/faq\" class=\"twbb-item two_elementor_element\">FAQ</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1581 two_elementor_element\"><a href=\"/legal-stuff\" class=\"twbb-item two_elementor_element\">Legal Stuff</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1582 two_elementor_element\"><a href=\"/privacypolicy\" class=\"twbb-item two_elementor_element\">Privacy Policy</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1584 two_elementor_element\"><a href=\"/all-the-best-things-to-do-at-aquarium-of-the-pacific-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">Discover Aquarium of the Pacific – Bushwick Weed Delivery</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1585 two_elementor_element\"><a href=\"/all-the-fun-things-to-do-at-south-gate-park-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">Exciting Activities at South Gate Park in Lynwood, CA</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1586 two_elementor_element\"><a href=\"/all-the-things-to-do-at-la-pasta-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">All The Things to do at La Pasta in Lynwood, CA</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1587 two_elementor_element\"><a href=\"/all-the-things-to-explore-at-natural-history-museum-of-los-angeles-county\" class=\"twbb-item two_elementor_element\">All The Things to Explore at Natural History Museum of Los Angeles County</a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1588 two_elementor_element\"><a href=\"/all-the-things-to-know-at-hacienda-mariana-restaurant-in-lynwood-ca\" class=\"twbb-item two_elementor_element\">All The Things to Know at Hacienda Mariana Restaurant in Lynwood, CA</a></li></ul>",
+      "links": [
+        {
+          "text": "About Us",
+          "href": "https://kravings.club/about-us",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://kravings.club/contactus",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Blog",
+          "href": "https://kravings.club/blog",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "FAQ",
+          "href": "https://kravings.club/faq",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Legal Stuff",
+          "href": "https://kravings.club/legal-stuff",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://kravings.club/privacypolicy",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Discover Aquarium of the Pacific – Bushwick Weed Delivery",
+          "href": "https://kravings.club/all-the-best-things-to-do-at-aquarium-of-the-pacific-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "Exciting Activities at South Gate Park in Lynwood, CA",
+          "href": "https://kravings.club/all-the-fun-things-to-do-at-south-gate-park-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "All The Things to do at La Pasta in Lynwood, CA",
+          "href": "https://kravings.club/all-the-things-to-do-at-la-pasta-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "All The Things to Explore at Natural History Museum of Los Angeles County",
+          "href": "https://kravings.club/all-the-things-to-explore-at-natural-history-museum-of-los-angeles-county",
+          "className": "twbb-item two_elementor_element"
+        },
+        {
+          "text": "All The Things to Know at Hacienda Mariana Restaurant in Lynwood, CA",
+          "href": "https://kravings.club/all-the-things-to-know-at-hacienda-mariana-restaurant-in-lynwood-ca",
+          "className": "twbb-item two_elementor_element"
+        }
+      ]
+    }
+  ],
+  "sections": [],
+  "colors": {
+    "primaryColor": "",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "textColor": "rgb(63, 63, 63)",
+    "linkColor": "rgb(161, 0, 236)"
+  },
+  "fonts": [
+    "\"Times New Roman\"",
+    "Barlow, sans-serif",
+    "sofia-pro, sans-serif",
+    "\"Font Awesome 5 Free\"",
+    "Grandstander, sans-serif",
+    "\"Barlow Semi Condensed\", sans-serif",
+    "\"Barlow Condensed\", sans-serif",
+    "Bangers, sans-serif",
+    "sans-serif",
+    "\"Denk One\", sans-serif",
+    "Montserrat, sans-serif",
+    "Arial, sans-serif"
+  ],
+  "features": {
+    "ageGate": true,
+    "shoppingCart": true,
+    "deliveryInfo": false,
+    "weedmapsIntegration": false,
+    "blazeIntegration": false
+  }
+}
