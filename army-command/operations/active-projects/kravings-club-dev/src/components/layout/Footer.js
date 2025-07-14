@@ -35,7 +35,7 @@ export default function Footer() {
           <div>
             <div className="mb-4">
               <Image
-                src="/kravings-logo.png"
+                src="/kravings-logo-final.png"
                 alt="Kravings Club"
                 width={140}
                 height={46}

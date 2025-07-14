@@ -64,7 +64,8 @@ jspm_packages/
 
 # Gatsby files
 .cache/
-public
+# Note: public/ is needed for Next.js static assets, only ignore Gatsby public
+**/gatsby/public
 
 # Storybook build outputs
 .out
@@ -93,6 +94,29 @@ temp/
 !assets/**/*.png
 !assets/**/*.jpg
 !assets/**/*.jpeg
+!**/public/*logo*.png
+!**/public/*logo*.jpg
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Lock files (can be regenerated)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript
+*.tsbuildinfo
+
+# Vercel
+.vercel
+
+# Testing
+cypress/videos/
+cypress/screenshots/
 
 # OS generated files
 .DS_Store
@@ -107,3 +131,16 @@ Thumbs.db
 *.bak
 *.backup
 *~
+
+# Security - NEVER commit these
+army-command/command-center/configurations/*.txt
+army-command/command-center/configurations/*credentials*
+army-command/command-center/configurations/*token*
+army-command/command-center/configurations/*secret*
+army-command/command-center/configurations/*api-key*
+
+# Sensitive configuration files
+**/github-token.txt
+**/api-credentials.md
+**/deployment-credentials.md
+**/blaze-api-credentials.md

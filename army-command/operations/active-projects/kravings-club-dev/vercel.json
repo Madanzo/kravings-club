@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "name": "kravings-club-nextjs",
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "env": {
+    "NEXT_PUBLIC_ENVIRONMENT": "production"
+  },
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_BLAZE_DEMO_MODE": "false",
+      "NEXT_PUBLIC_AGE_VERIFICATION_ENABLED": "true",
+      "NEXT_PUBLIC_CART_ENABLED": "true",
+      "NEXT_PUBLIC_CHECKOUT_ENABLED": "true"
+    }
+  }
+}

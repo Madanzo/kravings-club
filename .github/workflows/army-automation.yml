@@ -1,0 +1,53 @@
+name: Army Automation Scripts
+
+on:
+  schedule:
+    # Run army QA unit daily at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      script_name:
+        description: 'Script to run'
+        required: true
+        default: 'army-qa-unit.js'
+        type: choice
+        options:
+          - army-qa-unit.js
+          - army-resonance-unit.js
+          - army-commander.js
+
+jobs:
+  run-automation:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Install script dependencies
+      working-directory: army-command/command-center/scripts
+      run: npm install
+      
+    - name: Setup dependencies script
+      working-directory: army-command/command-center/scripts
+      run: chmod +x setup-domination-dependencies.sh && ./setup-domination-dependencies.sh
+      
+    - name: Run automation script
+      working-directory: army-command/command-center/scripts
+      run: node ${{ github.event.inputs.script_name || 'army-qa-unit.js' }}
+      env:
+        PUPPETEER_ARGS: --no-sandbox --disable-setuid-sandbox
+        
+    - name: Upload automation reports
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: automation-reports-${{ github.run_number }}
+        path: |
+          army-command/command-center/intelligence-reports/
+          army-command/command-center/mission-reports/
+        retention-days: 30

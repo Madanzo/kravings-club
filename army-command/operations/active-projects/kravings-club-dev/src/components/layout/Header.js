@@ -38,7 +38,7 @@ export default function Header() {
             <div className="flex-shrink-0">
               <a href="/" className="flex items-center">
                 <Image
-                  src="/kravings-logo.png"
+                  src="/kravings-logo-final.png"
                   alt="Kravings Club"
                   width={120}
                   height={40}

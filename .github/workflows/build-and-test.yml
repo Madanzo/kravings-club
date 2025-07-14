@@ -1,0 +1,118 @@
+name: Build and Test All Projects
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test-kravings-dev:
+    runs-on: ubuntu-latest
+    name: Test Kravings Club Dev (Next.js)
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: army-command/operations/active-projects/kravings-club-dev/package-lock.json
+        
+    - name: Install dependencies
+      working-directory: army-command/operations/active-projects/kravings-club-dev
+      run: npm ci
+      
+    - name: Lint code
+      working-directory: army-command/operations/active-projects/kravings-club-dev
+      run: npm run lint
+      
+    - name: Build project
+      working-directory: army-command/operations/active-projects/kravings-club-dev
+      run: npm run build
+      env:
+        NEXT_PUBLIC_ENVIRONMENT: production
+        NEXT_PUBLIC_BLAZE_DEMO_MODE: true
+        NEXT_PUBLIC_AGE_VERIFICATION_ENABLED: true
+        
+    - name: Test static export
+      working-directory: army-command/operations/active-projects/kravings-club-dev
+      run: npm run build:static
+      env:
+        EXPORT_MODE: static
+        NEXT_PUBLIC_ENVIRONMENT: production
+
+  test-kravings-delivery:
+    runs-on: ubuntu-latest
+    name: Test Kravings Club Delivery (React CRA)
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: army-command/operations/active-projects/kravings-club-delivery-now/package-lock.json
+        
+    - name: Install dependencies
+      working-directory: army-command/operations/active-projects/kravings-club-delivery-now
+      run: npm ci
+      
+    - name: Run tests
+      working-directory: army-command/operations/active-projects/kravings-club-delivery-now
+      run: npm test -- --coverage --watchAll=false
+      
+    - name: Build project
+      working-directory: army-command/operations/active-projects/kravings-club-delivery-now
+      run: npm run build
+
+  test-vite-ui:
+    runs-on: ubuntu-latest
+    name: Test Kravings Club Vite UI (Experimental)
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: army-command/operations/experimental-projects/kravings-club-vite-ui/package-lock.json
+        
+    - name: Install dependencies
+      working-directory: army-command/operations/experimental-projects/kravings-club-vite-ui
+      run: npm ci
+      
+    - name: Lint code
+      working-directory: army-command/operations/experimental-projects/kravings-club-vite-ui
+      run: npm run lint
+      
+    - name: Build project
+      working-directory: army-command/operations/experimental-projects/kravings-club-vite-ui
+      run: npm run build
+
+  security-audit:
+    runs-on: ubuntu-latest
+    name: Security Audit
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Run Trivy vulnerability scanner
+      uses: aquasecurity/trivy-action@master
+      with:
+        scan-type: 'fs'
+        scan-ref: '.'
+        format: 'sarif'
+        output: 'trivy-results.sarif'
+        
+    - name: Upload Trivy scan results to GitHub Security tab
+      uses: github/codeql-action/upload-sarif@v3
+      if: always()
+      with:
+        sarif_file: 'trivy-results.sarif'

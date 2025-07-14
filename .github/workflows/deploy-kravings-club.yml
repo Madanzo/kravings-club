@@ -1,0 +1,49 @@
+name: Deploy Kravings Club to Vercel
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'army-command/operations/active-projects/kravings-club-dev/**'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: army-command/operations/active-projects/kravings-club-dev/package-lock.json
+        
+    - name: Install dependencies
+      working-directory: army-command/operations/active-projects/kravings-club-dev
+      run: npm ci
+      
+    - name: Build project
+      working-directory: army-command/operations/active-projects/kravings-club-dev
+      run: npm run build
+      env:
+        NEXT_PUBLIC_ENVIRONMENT: production
+        NEXT_PUBLIC_BLAZE_DEMO_MODE: false
+        NEXT_PUBLIC_AGE_VERIFICATION_ENABLED: true
+        NEXT_PUBLIC_CART_ENABLED: true
+        NEXT_PUBLIC_CHECKOUT_ENABLED: true
+        NEXT_PUBLIC_SITE_URL: https://kravings.club
+        NEXT_PUBLIC_STATE_LICENSE: C9-0000555-LIC
+        NEXT_PUBLIC_MIN_AGE: 21
+        
+    - name: Deploy to Vercel
+      uses: amondnet/vercel-action@v25
+      with:
+        vercel-token: ${{ secrets.VERCEL_TOKEN }}
+        vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+        vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+        working-directory: army-command/operations/active-projects/kravings-club-dev
+        vercel-args: --prod
